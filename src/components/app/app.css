@@ -1,0 +1,19 @@
+.app{
+    height: 100vh;
+    color: black;
+    margin: 20px;
+}
+
+.content{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5rem auto;
+}
+
+.search-panel{
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    background-color: rgb(181, 210, 236);
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.15)
+}
