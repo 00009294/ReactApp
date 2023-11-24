@@ -55,11 +55,11 @@
     transform: translateX(0px);
 }
 
-.list-group-item.increase .list-group-item-label,
-.list-group-item.increase .list-group-item-input{
-    color: #e0eb67
+.list-group-item.favourite .list-group-item-label,
+.list-group-item.favourite .list-group-item-input{
+    color: #f40808
 }
 
-.list-group-item.increase .btn-star{
+.list-group-item.favourite .btn-star{
     color: rgb(249, 165, 8);
 }
