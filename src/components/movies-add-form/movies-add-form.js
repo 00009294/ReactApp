@@ -1,6 +1,5 @@
 import {Component} from 'react'
 import './movies-add-form.css'
-import {v4 as uuidv4} from 'uuid'
 
 class MoviesAddForm extends Component{
 constructor(props){
@@ -18,7 +17,7 @@ changeHandlerInput = e =>{
     }
 onAddHandler = e =>{
     e.preventDefault();
-    this.props.addForm({name: this.state.name, viewers: this.state.views, id: uuidv4() })
+    this.props.addForm({name: this.state.name, viewers: this.state.views})
     this.setState({
         name: '',
         views: '',
